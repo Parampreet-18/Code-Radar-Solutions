@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char word;
+    char word[2];
     sacnf("%c",&word);
     printf("you entered: %c",word);
     return 0 ;
