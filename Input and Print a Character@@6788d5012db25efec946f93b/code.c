@@ -2,6 +2,6 @@
 int main(){
     char word;
     sacnf("%s",word);
-    printf("you entered: %c",word);
+    printf("you entered: %s",word);
     return 0 ;
 }
