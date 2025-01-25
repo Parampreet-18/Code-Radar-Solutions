@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char word[2];
-    sacnf("%c",&word);
-    printf("you entered: %c",word);
+    sacnf("%s",&word);
+    printf("you entered: %s",word);
     return 0 ;
 }
