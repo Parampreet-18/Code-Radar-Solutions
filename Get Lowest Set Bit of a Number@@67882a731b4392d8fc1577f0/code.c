@@ -4,10 +4,13 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(){
+    if(a==0){
         printf("");
-    }else{
-    printf("%d",a&-a );}
-    
+    }
+    else
+    { 
+        printf("%d",a&-a );
+    }
+
     return 0;
 }
