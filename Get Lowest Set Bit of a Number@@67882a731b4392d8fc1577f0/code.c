@@ -4,6 +4,10 @@
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%d",a&-a );
+    if(){
+        printf("");
+    }else{
+    printf("%d",a&-a );}
+    
     return 0;
 }
