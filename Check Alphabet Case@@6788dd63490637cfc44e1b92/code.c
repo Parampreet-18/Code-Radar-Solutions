@@ -2,6 +2,11 @@
 int main() {
     char a;
     scanf("%c",&a);
-    printf("%c",a);
+    if ("%c==%C"){
+        printf("Uppercase");
+    }
+    else{
+        printf("Lowercase");
+    }
     return 0;
 }
