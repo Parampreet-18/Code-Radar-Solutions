@@ -4,10 +4,7 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    formul == c*c;
-    formula == a*a +b*b;
-
-    if(formul == formula){
+    if(a+b>c&&a+c>b&&b+c>a){
         printf("Valid");
     }
     else{
