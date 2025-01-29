@@ -6,7 +6,7 @@ int main() {
         printf("Vowel");
     }
     else{
-        printf("ok")
+        printf("ok");
     }
     return 0;
 }
