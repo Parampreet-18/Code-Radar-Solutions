@@ -2,11 +2,17 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(a =["n","n"]){
+    if(a =["",""]){
         printf("Vowel");
     }
+    else if(){
+        printf("Consonant");
+    }
+    else if(){
+        printf("Digit");
+    }
     else{
-        printf("ok");
+        printf("Special Character")
     }
     return 0;
 }
