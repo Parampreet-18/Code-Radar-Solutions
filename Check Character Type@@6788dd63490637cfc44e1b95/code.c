@@ -5,7 +5,7 @@ int main() {
     if(a=='a'){
         printf("Vowel");
     }
-    else if(a=='g'){
+    else if(a=='h'){
         printf("Consonant");
     }
     else if(a>=0){
