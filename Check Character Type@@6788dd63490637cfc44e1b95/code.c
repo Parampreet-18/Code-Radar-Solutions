@@ -2,13 +2,13 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(){
+    if(a==a){
         printf("Vowel");
     }
-    else if(){
+    else if(a==a){
         printf("Consonant");
     }
-    else if(){
+    else if(a==a){
         printf("Digit");
     }
     else{
