@@ -2,7 +2,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(a==a){
+    if(a==b){
         printf("Vowel");
     }
     else if(a==a){
