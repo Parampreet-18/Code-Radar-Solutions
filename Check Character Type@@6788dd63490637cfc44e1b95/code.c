@@ -2,10 +2,10 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(a==a){
-        printf("Vowel");
-    }
-    else if(a=='z'){
+    // if(a==a){
+    //     printf("Vowel");
+    // }
+    if(a=='z'){
         printf("Consonant");
     }
     else if(a>=0){
