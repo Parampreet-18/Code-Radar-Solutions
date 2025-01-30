@@ -5,12 +5,12 @@ int main() {
     if(a=='a'){
         printf("Vowel");
     }
-    else if(a=='z'){
+    else if(a=='b'){
         printf("Consonant");
     }
-    // else if(a>=0){
-    //     printf("Digit");
-    // }
+    else if(a>=0){
+        printf("Digit");
+    }
     else{
         printf("Special Character");
     }
