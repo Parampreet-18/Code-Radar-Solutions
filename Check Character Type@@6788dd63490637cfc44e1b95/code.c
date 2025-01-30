@@ -2,7 +2,7 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(a==[" "," "]){
+    if(a==["m ","m "]){
         printf("Vowel");
     }
     else{
