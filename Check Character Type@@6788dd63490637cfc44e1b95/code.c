@@ -13,7 +13,7 @@ int main() {
     //     printf("Digit");
     // }
     else{
-        printf("Special Character");
+        printf("Specia Character");
     }
     return 0;
 }
