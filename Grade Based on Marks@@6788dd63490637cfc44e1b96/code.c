@@ -15,7 +15,7 @@ int main() {
         printf("D");
     }
     else {
-        printf("C");
+        printf("F");
     }
     return 0;
 }
