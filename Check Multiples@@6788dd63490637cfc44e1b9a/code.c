@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if (b/a==0){
+    float a,b;
+    scanf("%f %f",&a,&b);
+    if (b/a==0.00){
         printf("Yes");
     }
     else{
