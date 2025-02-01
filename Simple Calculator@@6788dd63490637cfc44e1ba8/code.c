@@ -6,8 +6,14 @@ int main() {
     if(c=='+'){
         printf("%d",a+b);
     }
+    else if (c=='-'){
+        printf("%d",a-b);
+    }
+    else if(c=='*'){
+        printf("%d",a*b);
+    }
     else{
-        printf("l");
+        printf("%d",a/b);
     }
     return 0;
 }
