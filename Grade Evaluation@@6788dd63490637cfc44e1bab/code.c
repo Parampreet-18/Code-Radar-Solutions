@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    chat a;
+    char a;
     scanf("%c",&c);
     if(a=='A'){
         printf("Excellent");
