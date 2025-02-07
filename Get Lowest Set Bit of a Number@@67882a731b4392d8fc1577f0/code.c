@@ -11,6 +11,7 @@ int main() {
         a=a>>1;
         b++;
     }
+    printf("%d",b);
 
     return 0;
 }
