@@ -6,9 +6,9 @@ int main(){
         for (int j=0;j<a-i;j++){
             printf(" ");
         }
+        printf("\n");
         for(int k=0;k<2*i-1;k++){
             printf("*");
-        printf("\n");
         }
     }
     return 0;
