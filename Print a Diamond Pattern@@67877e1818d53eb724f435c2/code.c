@@ -1,9 +1,9 @@
  #include<stdio.h>
 int main()
 {
-    for (int i = 1; i <=5; i++)
+    for (int i = 1; i <=a; i++)
     {
-        for (int j = 0; j <5-i ; j++)
+        for (int j = 0; j <a-i ; j++)
         {
             printf(" ");
         }
@@ -14,13 +14,13 @@ int main()
         printf("\n");
 
     }
-    for (int i = 0; i <=5; i++)
+    for (int i = 0; i <=a; i++)
     {
         for (int j = 0; j <i ; j++)
         {
             printf(" ");
         }
-        for (int k = 0; k <2*(5-i)-1; k++)
+        for (int k = 0; k <2*(a-i)-1; k++)
         {
             printf("*");    
         }
