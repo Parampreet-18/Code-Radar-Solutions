@@ -6,7 +6,7 @@ int main() {
 
     // Upper Part (Mirrored Right-Angled Triangle)
     for (int i = 1; i <= a; i += 2) {
-        for (int j = 1; j <= a - i; j++) { // Print spaces
+        for (int j = 1; j <= (a - i) / 2; j++) { // Print spaces
             printf(" ");
         }
         for (int k = 1; k <= i; k++) { // Print stars
@@ -17,7 +17,7 @@ int main() {
 
     // Lower Part (Inverted Mirrored Right-Angled Triangle)
     for (int i = a - 2; i >= 1; i -= 2) {
-        for (int j = 1; j <= a - i; j++) { // Print spaces
+        for (int j = 1; j <= (a - i) / 2; j++) { // Print spaces
             printf(" ");
         }
         for (int k = 1; k <= i; k++) { // Print stars
