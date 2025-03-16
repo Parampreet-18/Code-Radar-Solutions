@@ -2,11 +2,14 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i ;i<=a;i++){
-        for (int j;j<i;j++){
-            printf("*");
+    for(int i=0 ;i<=a;i++){
+        for (int j;j<5-ii;j++){
+            printf("");
         }
-        // printf("\n");
+        for(int k=0;k<2*-1;k++){
+            printf("*")
+        }
+        printf("\n");
     }
     return 0;
 }
