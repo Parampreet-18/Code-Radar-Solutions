@@ -1,34 +1,30 @@
- #include<stdio.h>
-int main()
-{
+#include <stdio.h>
+
+int main() {
     int a;
-    scanf("%d",&a);
-    for (int i = 1; i <=a; i++)
-    {
-        for (int j = 0; j <a-i ; j++)
-        {
-            printf(" ");
-        }
-        for (int k = 0; k <2*i-1; k++)
-        {
-            printf("*");    
-        }
-        printf("\n");
+    scanf("%d", &a);
 
-    }
-    for (int i = 0; i <=a; i++)
-    {
-        for (int j = 0; j <i ; j++)
-        {
+    // Upper Part (Mirrored Right-Angled Triangle)
+    for (int i = 1; i <= a; i += 2) {
+        for (int j = 1; j <= a - i; j++) { // Print spaces
             printf(" ");
         }
-        for (int k = 0; k <2*(a-i)-1; k++)
-        {
-            printf("*");    
+        for (int k = 1; k <= i; k++) { // Print stars
+            printf("*");
         }
         printf("\n");
     }
 
-    
+    // Lower Part (Inverted Mirrored Right-Angled Triangle)
+    for (int i = a - 2; i >= 1; i -= 2) {
+        for (int j = 1; j <= a - i; j++) { // Print spaces
+            printf(" ");
+        }
+        for (int k = 1; k <= i; k++) { // Print stars
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
