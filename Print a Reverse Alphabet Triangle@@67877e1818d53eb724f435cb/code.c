@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     {
         for (int j = 0; j <a-i ; j++)
         {
-            printf("%c",65+j);
+            printf("%c ",65+j);
         }
         printf("\n");
         
