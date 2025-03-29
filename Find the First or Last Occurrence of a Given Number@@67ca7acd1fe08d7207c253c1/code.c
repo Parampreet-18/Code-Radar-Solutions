@@ -6,10 +6,10 @@ int findOccurrence(int arr[],int n,int target, char type){
         if(arr[mid]==target)
         result=mid;
             if(type=='F'){
-                right=mid+1;}
+                right=mid-1;}
             
             else if(type=='L'){
-                left=mid-1;}
+                left=mid+1;}
     }
 return result;
 }
