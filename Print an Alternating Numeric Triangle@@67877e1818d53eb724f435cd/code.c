@@ -1,18 +1,17 @@
-
 #include<stdio.h>
-int main()
+int main(int argc, char const *argv[])
 {
-    for (int i = 0; i <=5; i++)
+    int a;
+    scanf("%d",&a);
+    for (int i = 0; i <=a; i++)
     {
-        for (int j = 0; j <5-i ; j++)
+        for (int j = 0; j <i ; j++)
         {
-            printf(" ");
-        }
-        for (int k = 0; k <i; k++)
-        {
-            printf("*");
+            printf("%c ",97+j);
         }
         printf("\n");
+        
     }
+    
     return 0;
 }
