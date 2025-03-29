@@ -1,30 +1,34 @@
 #include <stdio.h>
 
+void printStarPattern(int n) {
+    // Upper half including middle row
+    for (int i = 1; i <= n; i++) {
+        int spaces = n - i;
+        int stars = 2 * i - 1;
+
+        for (int s = 0; s < spaces; s++)
+            printf(" ");
+        for (int s = 0; s < stars; s++)
+            printf("*");
+        printf("\n");
+    }
+
+    // Lower half
+    for (int i = n - 1; i >= 1; i--) {
+        int spaces = n - i;
+        int stars = 2 * i - 1;
+
+        for (int s = 0; s < spaces; s++)
+            printf(" ");
+        for (int s = 0; s < stars; s++)
+            printf("*");
+        printf("\n");
+    }
+}
+
 int main() {
-    int a;
-    scanf("%d", &a);
-
-    // Upper Part (Increasing)
-    for (int i = 1; i <= a; i += 2) {
-        for (int j = 0; j < (a - i) / 2; j++) { // Print leading spaces
-            printf(" ");
-        }
-        for (int k = 0; k < i; k++) { // Print stars
-            printf("*");
-        }
-        printf("\n");
-    }
-
-    // Lower Part (Decreasing)
-    for (int i = a - 2; i >= 1; i -= 2) {
-        for (int j = 0; j < (a - i) / 2; j++) { // Print leading spaces
-            printf(" ");
-        }
-        for (int k = 0; k < i; k++) { // Print stars
-            printf("*");
-        }
-        printf("\n");
-    }
-
+    int n;
+    scanf("%d", &n);
+    printStarPattern(n);
     return 0;
 }
