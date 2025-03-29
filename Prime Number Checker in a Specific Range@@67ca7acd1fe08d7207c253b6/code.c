@@ -14,12 +14,11 @@ void printPrimesInRange(int a, int b) {
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
-
             flag=1;
         }
+    }
         if(!flag){
             printf("No prime numbers");
         }
-    }
     printf("\n");
 }
