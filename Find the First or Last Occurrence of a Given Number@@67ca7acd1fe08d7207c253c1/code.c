@@ -9,9 +9,12 @@ int findOccurrence(int arr[],int n,int target, char type){
                 right=mid-1;}
             
             else{
-                left=mid+1;}
-                
+                left=mid+1;}     
         }
+        else if(arr[mid]<target)
+            left=mid+1;
+        else
+            right=mid-1;
     }
 return result;
 }
