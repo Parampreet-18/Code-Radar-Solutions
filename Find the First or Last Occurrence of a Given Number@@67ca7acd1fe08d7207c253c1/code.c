@@ -9,7 +9,7 @@ int findOccurrence(int arr[],int n,int target, char type){
                 right=mid-1;}
             
             else if(type=='L'){
-                left=mid;}
+                left=mid-1;}
     }
 return -1;
 }
