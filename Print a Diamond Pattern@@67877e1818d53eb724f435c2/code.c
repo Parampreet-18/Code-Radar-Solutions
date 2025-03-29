@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void printStarPattern(int n) {
+int main() {
+    int n;
+    scanf("%d", &n);
+
     // Upper half including middle row
     for (int i = 1; i <= n; i++) {
         int spaces = n - i;
@@ -24,11 +27,6 @@ void printStarPattern(int n) {
             printf("*");
         printf("\n");
     }
-}
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    printStarPattern(n);
     return 0;
 }
