@@ -4,7 +4,7 @@ int findOccurrence(int arr[],int n,int target, char type){
     while(left<=right){
         int mid =left+(right-left)/2;
         if(arr[mid]==target)
-            return mid;
+        result=mid;
             if(type=='F'){
                 right=mid+1;}
             
