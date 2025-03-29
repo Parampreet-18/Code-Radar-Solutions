@@ -14,5 +14,5 @@ int kthSmallest(int arr[], int n, int k) {
     }
 
     // Return k-th smallest element (0-based index)
-    return arr[k];
+    return arr[k-1];
 }
