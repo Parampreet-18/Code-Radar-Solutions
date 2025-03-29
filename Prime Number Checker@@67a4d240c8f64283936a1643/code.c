@@ -1,5 +1,5 @@
 void isPrime(int num){
-    if(n<=1){
+    if(num<=1){
         return 0;
     }
 }
