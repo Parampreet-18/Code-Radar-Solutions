@@ -11,5 +11,5 @@ int findOccurrence(int arr[],int n,int target, char type){
             else if(type=='L'){
                 left=mid+1;}
     }
-return -1;
+return result;
 }
